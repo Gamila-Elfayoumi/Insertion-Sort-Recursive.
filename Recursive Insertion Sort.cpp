@@ -26,5 +26,5 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     RecursiveInsertionSort(arr, n);
     PrintArray(arr, n);
-    return;
+    return 0;
 }
